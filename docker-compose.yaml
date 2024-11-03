@@ -1,5 +1,5 @@
 services:
-  dagster-dagit:
+  dagster-webserver:
     build:
       context: .
       dockerfile: docker/Dockerfile
