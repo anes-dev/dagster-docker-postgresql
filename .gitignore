@@ -1,6 +1,7 @@
 .vscode
 .ruff_cache
 .dagster
+.mise.toml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
