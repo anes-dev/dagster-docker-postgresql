@@ -11,7 +11,7 @@ services:
       dockerfile: docker/Dockerfile
     command: "dagster-daemon run"
   dagster-postgres:
-    image: postgres:13.3
+    image: postgres:17
     ports:
       - 5432:5432
     environment:
