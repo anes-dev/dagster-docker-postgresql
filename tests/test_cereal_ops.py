@@ -1,4 +1,5 @@
 """Example of how to unit-test Dagster ops."""
+
 from dagster_example.ops.cereal import (
     display_results,
     download_cereals,
