@@ -1,4 +1,5 @@
 """Collection of Cereal jobs"""
+
 from dagster import job
 
 from dagster_example.ops.cereal import (

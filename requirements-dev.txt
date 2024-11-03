@@ -1,4 +1,3 @@
-black==22.12.0
-ruff==0.0.236
+ruff==0.7.2
 pytest==7.2.1
 requests-mock==1.10.0

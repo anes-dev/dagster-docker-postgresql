@@ -1,4 +1,5 @@
 """Definitions that provide Dagster code locations."""
+
 from dagster import Definitions
 
 from dagster_example.assets.cereal import cereals, highest_calorie_cereal, highest_protein_cereal

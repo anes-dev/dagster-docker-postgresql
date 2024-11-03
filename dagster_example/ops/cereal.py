@@ -1,4 +1,5 @@
 """Collection of Cereal ops"""
+
 import csv
 from typing import List
 
