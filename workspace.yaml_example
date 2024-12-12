@@ -1,0 +1,6 @@
+load_from:
+  - python_module: dagster_example
+  - grpc_server:
+      host: custom-pipeline
+      port: 3001
+      location_name: "CUSTOM-PIPELINE"
