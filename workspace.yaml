@@ -1,2 +1,9 @@
 load_from:
-  - python_module: dagster_example
+  - grpc_server:
+      host: host.docker.internal
+      port: 3001
+      location_name: "Andi-Data-Pipeline"
+  - grpc_server:
+      host: host.docker.internal
+      port: 3002
+      location_name: "Arms-Data-Pipeline"

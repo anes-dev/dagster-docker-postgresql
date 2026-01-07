@@ -5,11 +5,15 @@ services:
       dockerfile: docker/Dockerfile
     ports:
       - 3000:3000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   dagster-daemon:
     build:
       context: .
       dockerfile: docker/Dockerfile
     command: "dagster-daemon run"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   dagster-postgres:
     image: postgres:17
     env_file:
